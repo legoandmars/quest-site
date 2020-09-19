@@ -187,7 +187,7 @@ function Header() {
       columnNumber: 21
     }
   }, "Walls"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "/walls",
+    href: "https://bobbie.dev/",
     __self: this,
     __source: {
       fileName: _jsxFileName,

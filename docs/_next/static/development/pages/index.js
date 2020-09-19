@@ -93,7 +93,7 @@ function Header() {
       columnNumber: 21
     }
   }, "Walls"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "/walls",
+    href: "https://bobbie.dev/",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -25013,7 +25013,7 @@ function walls(_ref) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 4:
 /*!*******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cindex.js ***!
   \*******************************************************************************************************************************/
@@ -25036,5 +25036,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
