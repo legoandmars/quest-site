@@ -325,7 +325,7 @@ function modelPage(allModels, modelType) {
           columnNumber: 17
         }
       }), __jsx("meta", {
-        content: "Download Bobbie's Custom ".concat(modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s", " for Beat Saber."),
+        content: "Download Bobbie's Custom ".concat(modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s", " for the Quest version of Beat Saber."),
         property: "og:description",
         __self: this,
         __source: {
@@ -336,7 +336,7 @@ function modelPage(allModels, modelType) {
       }));
     } else {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("meta", {
-        content: "Bobbie's Model Site",
+        content: "Bobbie's Quest Model Site",
         property: "og:title",
         __self: this,
         __source: {
@@ -345,7 +345,7 @@ function modelPage(allModels, modelType) {
           columnNumber: 17
         }
       }), __jsx("meta", {
-        content: "Download Bobbie's model packs, notes, walls, and more!",
+        content: "Download Bobbie's quest notes, walls, and more!",
         property: "og:description",
         __self: this,
         __source: {
@@ -354,7 +354,7 @@ function modelPage(allModels, modelType) {
           columnNumber: 17
         }
       }), __jsx("meta", {
-        content: "https://bobbie.dev/bobbie.png",
+        content: "https://quest.bobbie.dev/bobbie.png",
         property: "og:image",
         __self: this,
         __source: {
@@ -503,7 +503,7 @@ function modelPage(allModels, modelType) {
       columnNumber: 17
     }
   }), __jsx("meta", {
-    content: "#96e3ff",
+    content: "#202020",
     name: "theme-color",
     __self: this,
     __source: {
