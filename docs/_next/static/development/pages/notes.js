@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\walls.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\notes.js"],{
 
 /***/ "./layouts/header.js":
 /*!***************************!*\
@@ -5459,21 +5459,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fwalls&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cwalls.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnotes&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cnotes.js!./":
 /*!********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fwalls&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cwalls.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnotes&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cnotes.js ***!
   \********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/walls", function() {
-      var mod = __webpack_require__(/*! ./pages/walls.js */ "./pages/walls.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/notes", function() {
+      var mod = __webpack_require__(/*! ./pages/notes.js */ "./pages/notes.js")
       if(true) {
-        module.hot.accept(/*! ./pages/walls.js */ "./pages/walls.js", function() {
-          if(!next.router.components["/walls"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/walls.js */ "./pages/walls.js")
-          next.router.update("/walls", updatedPage)
+        module.hot.accept(/*! ./pages/notes.js */ "./pages/notes.js", function() {
+          if(!next.router.components["/notes"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/notes.js */ "./pages/notes.js")
+          next.router.update("/notes", updatedPage)
         })
       }
       return mod
@@ -24991,9 +24991,9 @@ module.exports = warning;
 
 /***/ }),
 
-/***/ "./pages/walls.js":
+/***/ "./pages/notes.js":
 /*!************************!*\
-  !*** ./pages/walls.js ***!
+  !*** ./pages/notes.js ***!
   \************************/
 /*! exports provided: __N_SSG, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -25008,19 +25008,19 @@ var __N_SSG = true;
 function walls(_ref) {
   var postData = _ref.postData;
   // first, get all valid models.
-  return Object(_layouts_model_list__WEBPACK_IMPORTED_MODULE_0__["modelPage"])(postData, "wall");
+  return Object(_layouts_model_list__WEBPACK_IMPORTED_MODULE_0__["modelPage"])(postData, "note");
 }
 
 /***/ }),
 
 /***/ 3:
 /*!************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fwalls&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cwalls.js ***!
+  !*** multi next-client-pages-loader?page=%2Fnotes&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cnotes.js ***!
   \************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fwalls&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cwalls.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fwalls&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cwalls.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnotes&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cnotes.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnotes&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5Cnotes.js!./");
 
 
 /***/ }),
@@ -25037,4 +25037,4 @@ module.exports = dll_2adc2403d89adc16ead0;
 /***/ })
 
 },[[3,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=walls.js.map
+//# sourceMappingURL=notes.js.map
