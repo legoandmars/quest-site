@@ -171,11 +171,19 @@ function Header() {
       columnNumber: 17
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "/notes",
+    href: "/packs",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88,
+      columnNumber: 21
+    }
+  }, "Model Packs"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+    href: "/notes",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
       columnNumber: 21
     }
   }, "Notes"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
@@ -183,7 +191,7 @@ function Header() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 90,
       columnNumber: 21
     }
   }, "Walls"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
@@ -191,7 +199,7 @@ function Header() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 91,
       columnNumber: 21
     }
   }, "PC Models"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
@@ -200,14 +208,14 @@ function Header() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 92,
       columnNumber: 21
     }
   }, "Donate")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 94,
       columnNumber: 17
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Brand, {
@@ -216,7 +224,7 @@ function Header() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 95,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -226,7 +234,7 @@ function Header() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 96,
       columnNumber: 21
     }
   }))))));
@@ -21346,7 +21354,7 @@ function Post(_ref) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cquest-site%5Cpages%5C%5Bid%5D.js ***!
   \******************************************************************************************************************************************/
@@ -21369,5 +21377,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[id].js.map
