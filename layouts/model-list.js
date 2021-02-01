@@ -41,14 +41,14 @@ export function modelPage(allModels, modelType){
             return(
             <>
                 <meta content={modelType.charAt(0).toUpperCase() + modelType.slice(1)+"s"} property="og:title"></meta>
-                <meta content={`Download Bobbie's Custom ${modelType.charAt(0).toUpperCase() + modelType.slice(1)+"s"} for Beat Saber.`} property="og:description"></meta>
+                <meta content={`Download Bobbie's Custom ${modelType.charAt(0).toUpperCase() + modelType.slice(1)+"s"} for the Quest version of Beat Saber.`} property="og:description"></meta>
             </>)
         }else{
             return(
             <>
-                <meta content="Bobbie's Model Site" property="og:title"></meta>
-                <meta content="Download Bobbie's model packs, notes, walls, and more!" property="og:description"></meta>
-                <meta content="https://bobbie.dev/bobbie.png" property="og:image"></meta>
+                <meta content="Bobbie's Quest Model Site" property="og:title"></meta>
+                <meta content="Download Bobbie's quest notes, walls, and more!" property="og:description"></meta>
+                <meta content="https://quest.bobbie.dev/bobbie.png" property="og:image"></meta>
             </>)
         }
     }
@@ -231,7 +231,7 @@ export function modelPage(allModels, modelType){
             <Head>
                 <title>{modelType.charAt(0).toUpperCase() + modelType.slice(1)+"s"}</title>
                 <meta content="bobbie.dev" property="og:site_name"></meta>
-                <meta content="#96e3ff" name="theme-color"></meta>
+                <meta content="#202020" name="theme-color"></meta>
                 {getDescription()}
             </Head>
             <div class="album py-5">

@@ -132,6 +132,12 @@ export default function Post({ postData }) {
             </>)
         }
     }
+
+    function replaceLinks(text){
+        var html = text.replace(/\[([^\]]+)\]\(([^\)]+)\)/, '<a href="$2">$1</a>');
+        return(html);
+    }
+
     return (
       <>
         <Header></Header>
@@ -454,11 +460,11 @@ export default function Post({ postData }) {
             </style>
             <Head>
                 <title>{postData.model.name}</title>
-                <meta content="bobbie.dev" property="og:site_name"></meta>
+                <meta content="quest.bobbie.dev" property="og:site_name"></meta>
                 <meta content={postData.model.name} property="og:title"></meta>
                 <meta content={getShortnedDesc()} property="og:description"></meta>
-                <meta content="#96e3ff" name="theme-color"></meta>
-                <meta content={"https://bobbie.dev/"+postData.image_name} property="og:image"></meta>
+                <meta content="#202020" name="theme-color"></meta>
+                <meta content={"https://quest.bobbie.dev/"+postData.image_name} property="og:image"></meta>
                 {getRedirect()}
                 {preloadImages(postData.extra_images)}
             </Head>
@@ -478,7 +484,7 @@ export default function Post({ postData }) {
                         <div class="imagetext">
                             <p class="text-light titletext">{postData.model.name}</p>
                             <div class="description-holder">
-                                <p class="text-light descriptiontext">{postData.model.description}</p>
+                            <p class="text-light descriptiontext" dangerouslySetInnerHTML={{__html: replaceLinks(postData.model.description)}}></p>
                             </div>
                         </div>
                         {getCredits()}

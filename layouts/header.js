@@ -85,9 +85,10 @@ export default function Header() {
             <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href="/">Bobbie</Navbar.Brand>
                 <Nav className="mr-auto">
+                    <Nav.Link href="/packs">Model Packs</Nav.Link>
                     <Nav.Link href="/notes">Notes</Nav.Link>
                     <Nav.Link href="/walls">Walls</Nav.Link>
-                    <Nav.Link href="/walls">PC Models</Nav.Link>
+                    <Nav.Link href="https://bobbie.dev/">PC Models</Nav.Link>
                     <Nav.Link href="https://ko-fi.com/bobbievr" className="donate">Donate</Nav.Link>
                 </Nav>
                 <Nav>
