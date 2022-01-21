@@ -73,9 +73,6 @@
           <a href="/walls" class="block mt-4 inline-block sm:inline-block sm:mt-0 text-stone-200 hover:text-white mr-4">
               Walls
           </a>
-          <a href="/misc" class="block mt-4 inline-block sm:inline-block sm:mt-0 text-stone-200 hover:text-white mr-4">
-              Misc
-          </a>
         </div>
         <div class="h-[48px] my-auto"></div>
         
@@ -117,9 +114,6 @@
           </a>
           <a href="/walls" class="block inline-block text-stone-200 hover:text-white">
               Walls
-          </a>
-          <a href="/misc" class="block inline-block text-stone-200 hover:text-white">
-              Misc
           </a>
         </div>
     </nav>  
