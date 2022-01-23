@@ -2,6 +2,16 @@
     import ModelCard from '../components/ModelCard.svelte';
 
     export let modelFiltering;
+
+    import { onMount } from 'svelte';
+  
+    let isBMBF = false;
+
+	onMount(async () => {
+        if(window.navigator.userAgent.toLowerCase().indexOf('bmbf_quest') > -1){
+        isBMBF = true;
+        }
+	});
 </script>
 
 <script context="module">
@@ -11,7 +21,7 @@
     export const allData = data;
 </script>
 
-<div class="mx-auto w-[90%] 2xl:w-[75%] pt-32 pb-2 sm:pt-16 sm:pb-16" align="center">
+<div class="mx-auto w-[90%] 2xl:w-[75%] pt-32 pb-2 sm:pt-32 sm:pb-16" align="center">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8003053308644369"
     crossorigin="anonymous"></script>
     <!-- Responsive ad unit -->

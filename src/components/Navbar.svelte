@@ -40,7 +40,7 @@
 	});
 </script>
 
-<div class="fixed w-[100%]">
+<div class="fixed w-[100%] z-50">
   <div class="flex flex-col w-[100%]">
 
     {#if isBMBF}
