@@ -144,17 +144,28 @@
          },
          "quest_only": "true"
     }, 
-   {
-        "image_name": "MinecraftWallPack.gif",
-        "file_name": "MinecraftWallPack.qmod",
-        "type": "pack",
-        "endpoint": "MinecraftWallPack",
-        "model": {
-            "name": "Minecraft Wall Pack",
-            "description": "The Beat Saber Minecraft wall pack contains 10 walls. 3 are animated, and 2 have custom colors. Since this is a model pack (and not an individual model), it can be installed by dragging the .zip directly into BMBF."
-        }
-    },
     {
+          "image_name": "MinecraftWallPack.gif",
+          "file_name": "MinecraftWallPack.qmod",
+          "type": "pack",
+          "endpoint": "MinecraftWallPack",
+          "model": {
+          "name": "Minecraft Wall Pack",
+          "description": "The Beat Saber Minecraft wall pack contains 10 walls. 3 are animated, and 2 have custom colors. Since this is a model pack (and not an individual model), it can be installed by dragging the .zip directly into BMBF.",
+          "hidden": "true"
+     }
+     },
+     {
+          "image_name": "MinecraftWallPack.gif",
+          "file_name": "MinecraftWallPack.qmod",
+          "type": "pack",
+          "endpoint": "MCWallPack",
+          "model": {
+          "name": "MC Wall Pack",
+          "description": "The Beat Saber MC wall pack contains 10 walls. 3 are animated, and 2 have custom colors. Since this is a model pack (and not an individual model), it can be installed by dragging the .zip directly into BMBF."
+          }
+     },
+     {
         "image_name": "bsfg.png",
         "file_name": "FallGuysPack.qmod",
         "type": "pack",
@@ -779,7 +790,8 @@
         "second_button": {
              "link": "RocketLeagueBall(Animated)V1.0.0.zip"
         },
-        "quest_only": "true"
+        "quest_only": "true",
+        "hidden": "true"
    },
    {
         "image_name": "images/rl.jpg",
@@ -793,7 +805,9 @@
         "second_button": {
              "link": "RocketLeagueBallV1.0.0.zip"
         },
-        "quest_only": "true"
+        "quest_only": "true",
+        "hidden": "true"
+
    },
    {
         "image_name": "images/uwu.jpg",
@@ -823,7 +837,37 @@
         },
         "quest_only": "true"
    },
+
    {
+     "image_name": "images/minecraft.jpg",
+     "file_name": "download/Minecraft.qbloq",
+     "type": "note",
+     "endpoint": "Minecraft",
+     "model": {
+          "name": "Minecraft",
+          "description": "Minin' away - I don't know what to mine! I'll mine this anyway. In this Minecraft day. So beautiful! Mine further down. What's that I found? Mine diamonds! MINE DIAMONDS!"
+     },
+     "second_button": {
+          "link": "MinecraftV1.0.0.zip"
+     },
+     "quest_only": "true",
+     "hidden": "true"
+     },
+   {
+        "image_name": "images/minecraft.jpg",
+        "file_name": "download/Minecraft.qbloq",
+        "type": "note",
+        "endpoint": "MC",
+        "model": {
+             "name": "MC",
+             "description": "Minin' away - I don't know what to mine! I'll mine this anyway. In this MC day. So beautiful! Mine further down. What's that I found? Mine diamonds! MINE DIAMONDS!"
+        },
+        "second_button": {
+             "link": "MinecraftV1.0.0.zip"
+        },
+        "quest_only": "true"
+   },
+     {
         "image_name": "images/ddr.jpg",
         "file_name": "download/DDR Arrows.qbloq",
         "type": "note",

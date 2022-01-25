@@ -62,7 +62,7 @@
     </div>
     <div class="hidden sm:flex w-[100%] rounded-b-lg border-t-2 border-stone-800 bg-black" >
         {#if postData.quest_only != null}
-            <p class="w-[50%] text-white bg-clear  font-medium text-lg sm:text-xl xl:text-4xl 2xl:text-5xl px-5 py-2 text-center rounded-bl-lg border-r border-stone-800"><u class="text-white">PC Only</u></p>
+            <p class="w-[50%] text-white bg-clear  font-medium text-lg sm:text-xl xl:text-4xl 2xl:text-5xl px-5 py-2 text-center rounded-bl-lg border-r border-stone-800"><u class="text-white">Quest Only</u></p>
         {:else}
             <a href="https://bobbie.dev/{postData.endpoint}" class="w-[50%] text-white bg-clear hover:bg-stone-800  font-medium text-lg sm:text-xl xl:text-4xl 2xl:text-5xl px-5 py-2 text-center rounded-bl-lg border-r border-stone-800"><p class="text-stone-600">PC <b class="text-white">/</b> <u class="text-white">Quest</u></p></a>
         {/if}
@@ -76,7 +76,7 @@
     </div>    
     <div class="flex sm:hidden w-[100%] border-t-2 border-stone-800 bg-black" >
         {#if postData.quest_only != null}
-            <p class="w-[100%] text-white bg-clear  font-medium text-lg sm:text-xl xl:text-4xl 2xl:text-5xl px-5 py-2 text-center rounded-bl-lg border-stone-800"><u class="text-white">PC Only</u></p>
+            <p class="w-[100%] text-white bg-clear  font-medium text-lg sm:text-xl xl:text-4xl 2xl:text-5xl px-5 py-2 text-center rounded-bl-lg border-stone-800"><u class="text-white">Quest Only</u></p>
         {:else}
             <a href="https://bobbie.dev/{postData.endpoint}" class="w-[100%] text-white bg-clear hover:bg-stone-800  font-medium text-lg sm:text-xl xl:text-4xl 2xl:text-5xl px-5 py-2 text-center rounded-bl-lg border-stone-800"><p class="text-stone-600">PC <b class="text-white">/</b> <u class="text-white">Quest</u></p></a>
         {/if}

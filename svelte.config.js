@@ -35,7 +35,11 @@ const config = {
 				'/RandomOres.html',
 				'/DiamondOre.html',  
 				'/Grass.html',
-				'/Mycelium.html'
+				'/Mycelium.html',
+				'/RocketLeagueBall.html',
+				'/AnimatedRocketLeagueBall.html',
+				'/MinecraftWallPack.html',
+				'/Minecraft.html'
 			]
 		}	
 	}
